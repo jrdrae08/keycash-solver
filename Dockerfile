@@ -18,4 +18,7 @@ RUN pip install --no-cache-dir selenium==4.25.0
 
 COPY keycash.py .
 
+EXPOSE 10000
+
 CMD ["python", "keycash.py", "--serve"]
+

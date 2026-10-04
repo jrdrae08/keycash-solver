@@ -1,0 +1,4 @@
+chrome-profile/
+__pycache__/
+*.pyc
+*.log
